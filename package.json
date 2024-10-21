@@ -3,8 +3,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "build-custom-controls": "./scripts/build-custom-controls.sh",
-    "build-custom-controls-config": "./scripts/build-custom-controls-config.sh API_HOST $API_HOST"
+    "build-custom-controls": "env bash ./scripts/build-custom-controls.sh",
+    "build-custom-controls-config": "env bash ./scripts/build-custom-controls-config.sh API_HOST $API_HOST"
   },
   "dependencies": {
     "@astrojs/netlify": "^5.2.0",
