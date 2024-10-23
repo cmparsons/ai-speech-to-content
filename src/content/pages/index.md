@@ -1,5 +1,5 @@
 ---
 type: page
 title: Visual Editing Example with Groq
-text: 'Test, test, test, test.'
+text: 'Test content, one, two, three.'
 ---
